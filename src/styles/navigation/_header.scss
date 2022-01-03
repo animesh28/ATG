@@ -19,52 +19,7 @@
         height: 24px;
         margin-left: 72px;
     }
-
-    .css-cio0x1-MuiInputBase-root-MuiFilledInput-root {
-        margin-left: 310px;
-        background: transparent;
-        border-radius: 18px;
-    }
-
-    .css-2hzjrb-MuiInputBase-input-MuiFilledInput-input {
-        width: 240px;
-        height: 18px;
-        padding: 12px 50px 12px 68px;
-        background: #F2F2F2;
-        border-radius: 21px;
-        -webkit-border-radius: 21px;
-        -moz-border-radius: 21px;
-        overflow: hidden;
-        position: relative;
-        background-image: url('../assets/images/search.svg');
-        background-repeat: no-repeat;
-        background-position: 7% 50%;
-        background-size: 16px;
-    }
-
-    .css-2hzjrb-MuiInputBase-input-MuiFilledInput-input::placeholder {
-        font-family: IBM Plex Sans;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #5C5C5C;
-    }
-
-    .css-cio0x1-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disabled):before,
-    .css-cio0x1-MuiInputBase-root-MuiFilledInput-root:before {
-        border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
-    }
-
-    .css-cio0x1-MuiInputBase-root-MuiFilledInput-root:hover {
-        background: transparent !important;
-    }
-    
-    .css-cio0x1-MuiInputBase-root-MuiFilledInput-root.Mui-focused:after {
-        transform: scaleX(0) !important;
-    } 
+ 
 
     &__search-icon {
         width: 16px;
@@ -313,4 +268,50 @@
     &__icon {
         margin: 0 9px;
     }
+}
+
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root {
+    margin-left: 310px;
+    background: transparent;
+    border-radius: 18px;
+}
+
+.css-2hzjrb-MuiInputBase-input-MuiFilledInput-input {
+    width: 240px;
+    height: 18px;
+    padding: 12px 50px 12px 68px;
+    background: #F2F2F2;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../assets/images/search.svg');
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+    background-size: 16px;
+}
+
+.css-2hzjrb-MuiInputBase-input-MuiFilledInput-input::placeholder {
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disabled):before,
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:before {
+    border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
+}
+
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:hover {
+    background: transparent !important;
+}
+
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root.Mui-focused:after {
+    transform: scaleX(0) !important;
 }
