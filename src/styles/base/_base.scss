@@ -1,0 +1,121 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    &-info {
+        display: flex;
+        margin-top: 32px;
+        
+        & div {
+            display: inline-flex;
+            flex-grow: 1;
+        }
+
+        & span {
+            display: inline-flex;
+            flex-grow: 1;
+            margin-left: 8.33px;
+            
+        }
+    }
+
+    &-text {
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;
+        opacity: 0.5;
+    }
+
+    &-icon {
+        filter: opacity(.6);
+        margin-top: 2.33px;
+        margin-left: 1.33px;
+    }
+}
+
+.groups {
+    &__head {
+        margin-top: 54px;
+        margin-bottom: 13px;
+    }
+
+    &__title {
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-left: 4.75px;
+    }
+
+    &__name {
+        font-family: IBM Plex Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 12px;
+        width: 104px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin: 11px 0;
+    }
+
+    &__btn-col {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    &__follow-btn {
+        padding: 4px 12px;
+        width: 60px;
+        height: 24px;
+        background: #EDEEF0;
+        color: #000;
+        border-radius: 14px;
+        text-align: center;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        cursor: pointer;
+        transition: all .4s ease-in;
+    }
+
+    &__follow-btn_active {
+        padding: 4px 12px;
+        width: 73px;
+        height: 24px;
+        background: #000000;
+        color: #fff;
+        border-radius: 14px;
+        text-align: center;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+}

@@ -1,0 +1,31 @@
+.article_wrap {
+    padding: 0 200px;
+    margin-top: 28px;
+    display: flex;
+}
+
+.css-19kzrtu {
+    padding: 0 !important;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 108px;
+    margin-top: 28px;
+    max-width: 243px;
+}
+
+@media (max-width: 1279px) {
+    .user-info {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .article_wrap {
+        padding: 0 !important;
+        justify-content: center;
+    }
+}

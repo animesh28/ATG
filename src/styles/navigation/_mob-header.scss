@@ -1,0 +1,48 @@
+.mob-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    &__row {
+        display: flex;
+    }
+    &_social {
+        padding: 11px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__action-btn {
+        max-width: 150px;
+        padding: 10px 28px;
+        margin-top: 0;
+    }
+
+    &-center {
+        display: flex;
+        align-items: center;
+        margin-top: 22px;
+        justify-content: space-between;
+    }
+
+    &_wrap {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    @media (min-width: 1280px) {
+        &_wrap {
+            display: none;
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+    
+}
+
+.terms-mob {
+    max-width: 240px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 22px;
+}

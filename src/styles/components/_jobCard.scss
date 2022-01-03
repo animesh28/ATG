@@ -1,0 +1,92 @@
+.job-card {
+    max-width: 692px;
+    max-height: 269px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+    margin-bottom: 25px;
+
+    &__type {
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    &__role {
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0 12px 0;
+    }
+
+    &__info {
+        display: flex;
+
+        &-item {
+            font-family: IBM Plex Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+
+            & span {
+                margin-left: 6px;
+            }
+        }
+
+        &-item:not(:last-of-type) {
+            margin-right: 64px;
+        }
+    }
+
+    &__post {
+        margin-top: 23px;
+    }
+
+    @media (max-width: 1279px) {
+        & {
+            max-width: 100vw;
+            max-height: none;
+        }
+    }
+}
+
+.border-btn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 9px 0;
+    margin-top: 16px;
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    text-align: center;
+    color: #02B875;
+    cursor: pointer;
+    transition: all .3s ease-in;
+
+    &_event {
+    color: #E56135;
+    }
+}
+
+.border-btn:hover {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+}
